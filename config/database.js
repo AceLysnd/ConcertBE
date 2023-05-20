@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 const db = new Sequelize('concert', 'root', '', {
-    host: "localhost",
+    host: "https://concert-be.vercel.app/",
     dialect: "mysql"
 })
 
